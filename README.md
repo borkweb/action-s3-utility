@@ -1,6 +1,8 @@
-# GitHub Action to perform various S3 commands
+# This action is a big no-no
 
-This action uses the AWS CLI to execute various S3 commands (ls, sync, rm) and helper commands (exists). Helper commands are simplified GitHub Action-specific commands for S3 operations.
+Fiddling with single files is not something you should consider.
+
+Software should be packaged and handled by a package manager. 👈 This is so useful in the long-term that it is worth to change business processes resulting in the need of this action.
 
 ## Configuration
 
